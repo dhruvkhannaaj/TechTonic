@@ -7,7 +7,7 @@ An integrated digital ecosystem empowering Indian farmers through transparent MS
 ## 1. Project Information
 
 - **Project Title:** KisanSetu – National Agricultural Commerce & Logistics Platform
-- **PS ID:** SIH2026-AGRI-001 *(Update with your team's assigned PS ID)*
+- **PS ID:** SIH26033
 - **PS Title:** Direct Farmer-to-Consumer Market Linkage and Rural Logistics System
 - **Category:** Software
 - **Theme:** Smart Agriculture / Rural Development
