@@ -7,7 +7,7 @@ An integrated digital ecosystem empowering Indian farmers through transparent MS
 ## 1. Project Information
 
 - **Project Title:** KisanSetu – National Agricultural Commerce & Logistics Platform
-- **PS ID:** SIH2026-AGRI-001 *(Update with your team's assigned PS ID)*
+- **PS ID:** SIH26033
 - **PS Title:** Direct Farmer-to-Consumer Market Linkage and Rural Logistics System
 - **Category:** Software
 - **Theme:** Smart Agriculture / Rural Development
@@ -54,8 +54,6 @@ Indian agricultural producers frequently face distress selling due to informatio
 ---
 
 ## 6. Architecture
-
-See [docs/architecture.md](docs/architecture.md) for detailed technical specifications and data flow diagrams.
 
 ```text
 Cultivators (Voice/Web)       Consumers / Buyers            Drivers / Logistics
@@ -120,8 +118,6 @@ SIH2026/
         └── voice.js                   # Multilingual voice recognition
 ```
 
-### What goes where?
-
 | Item | Location |
 |---|---|
 | Source code & UI | `src/` |
@@ -136,25 +132,19 @@ SIH2026/
 
 ## 8. Final Presentation
 
-Keep your final SIH presentation in the repository whenever practical.
-
-See [submission/PRESENTATION.md](submission/PRESENTATION.md) for instructions and format.
+https://drive.google.com/drive/folders/1RwEq-Loz8wBW1w-drM0Xo7Yatt4MaPRP?usp=drive_link
 
 ---
 
 ## 9. Demo Video
 
-Add the YouTube / Google Drive walkthrough link in [submission/DEMO.md](submission/DEMO.md).
+https://drive.google.com/drive/folders/1yvjB0D3YFHaKRTJ7kGfnUk6YF9i300h0?usp=drive_link
 
 ---
 
 ## 10. Screenshots / Prototype Photos
 
-Store screenshots of key workflows in:
 
-`assets/screenshots/`
-
-See [assets/screenshots/README.md](assets/screenshots/README.md) for suggested naming conventions.
 
 ---
 
@@ -163,30 +153,9 @@ See [assets/screenshots/README.md](assets/screenshots/README.md) for suggested n
 ### Prerequisites
 - Python 3.9 or higher
 
-### Steps
+## Run
 
-```bash
-# 1. Clone repository
-git clone <YOUR_REPOSITORY_URL>
-cd <YOUR_PROJECT_FOLDER>
-
-# 2. Install optional requirements (if using MySQL)
-pip install -r requirements.txt
-```
-
----
-
-## 12. Run
-
-### Quick Start (Local Flask Server)
-
-Run the Flask application from the repository root:
-
-```bash
-python app.py
-```
-
-Open your browser at **`http://localhost:8080`**.
+https://techtonic-tt2k.onrender.com/
 
 ### Production Run (Gunicorn / Render)
 
@@ -204,34 +173,17 @@ To verify database tables, records, and relational schema health:
 python setup_mysql.py
 ```
 
-### Running with MySQL (Optional Production Mode)
-
-Set environment variables before running:
-
-```bash
-export MYSQL_HOST=localhost
-export MYSQL_PORT=3306
-export MYSQL_USER=root
-export MYSQL_PASSWORD=your_password
-export MYSQL_DATABASE=kisansetu
-
-python src/setup_mysql.py
-python src/main.py
-```
-
----
-
 ## 13. Team Members
 
 *(Fill in your team details before final submission)*
 
-- **Team Name:** [Your Team Name]
-- **Team Leader:** [Name / Email / GitHub]
-- **Member 2:** [Name / Email]
-- **Member 3:** [Name / Email]
-- **Member 4:** [Name / Email]
-- **Member 5:** [Name / Email]
-- **Member 6:** [Name / Email]
+- **Team Name:** TechTonic
+- **Team Leader:** Vaishnavi jha
+- **Member 2:** Dhruv Khanna
+- **Member 3:** Divyanshu Sharma
+- **Member 4:** Arnav Gupta
+- **Member 5:** MD UBESH
+- **Member 6:** Jayant Jangid
 
 ---
 
@@ -242,8 +194,3 @@ python src/main.py
 - **Cold Storage Aggregation:** Real-time booking of nearby solar cold-chain facilities to reduce post-harvest spoilage during arrival gluts.
 - **WhatsApp & SMS Gateway:** SMS / IVR bidding alerts for farmers without constant internet connectivity.
 
----
-
-## Important
-
-Before submission, ensure the repository is public and accessible to reviewers. Do **not** upload passwords, API tokens, `.env` files containing production secrets, or confidential keys.
